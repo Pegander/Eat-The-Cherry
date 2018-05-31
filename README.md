@@ -1,2 +1,5 @@
 # Eat-The-Cherry
-Small javascript game with collition detection and score count
+/*		        EAT THE CHERRY		        *\
+/*   	    Made by Per Birgander	        *\
+/*        Javasscript game with	        *\
+/*  collition detection and score count	*\		 
