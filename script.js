@@ -23,13 +23,12 @@ window.addEventListener("DOMContentLoaded", function() {
     }
        
 //Funktion för att flytta spelaren
-    function move(){
+    function move(event){
         //Se vilken knapp spelaren trycker på och flytta spelaren i rätt riktning
         var keypressed = event.key;
         //Flytta bara spelaren om spelarens status är alive
         if(player1.status=="alive"){
             if(keypressed == "ArrowRight" && player1.xpos<550){
-                console.log(keypressed);
                 player1.xpos += 25;
             }
             //Flytta spelarn om denna inte nått gränsen av min canvas
